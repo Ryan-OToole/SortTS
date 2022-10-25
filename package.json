@@ -1,0 +1,27 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-OToole/SortTS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryan-OToole/SortTS/issues"
+  },
+  "homepage": "https://github.com/Ryan-OToole/SortTS#readme",
+  "dependencies": {
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20"
+  }
+}
